@@ -1,0 +1,27 @@
+# config values needed for functions in TestData folder and TestCodes folder
+# With this we can have all configurations in one place and easy to maintenance in case of input changes
+
+url : "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+title : "OrangeHRM"
+dashboard_url : "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
+first_name : "Test"
+last_name : "User101"
+employeeID : "10001"
+otherID : "abc@gmail.com"
+license_number : "111111"
+license_expiry : "2030-01-08"
+dob : "1989-01-07"
+license_expiry_update : "2031-09-01"
+employee_searchstring : "Test User"
+
+# config values needed for asserting the test case status
+expected_headers : ['User Management','Job','Organization','Qualifications','Nationalities','Corporate Branding','Configuration']
+expected_tabs: ['Admin','PIM','Leave','Time','Recruitment','My Info','Performance','Dashboard','Directory','Maintenance','Claim','Buzz']
+reset_message : "Reset Password link sent successfully"
+expected_delete_text : "No Records Found"
+
+# config values needed for updating the test status and errors in excel sheet
+pass_data : "Passed"
+fail_data : "Failed"
+error_text : "Invalid credentials"
+success_url : "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
